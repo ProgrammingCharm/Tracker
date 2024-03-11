@@ -30,7 +30,9 @@ sqlite3 tracker.db
 sqlite3 opens the sqlite command line interface and tracker.db is the name of the database that was created on-disk. Once within, you can view the schema setup to see what tables were created and the different files within: 
 
 .schema 
+
 .table 
+
 .quit 
 
 And you can exit with .quit which smoothly exits out of this command line interface. This shows you a little of what is going on behind-the-scenes. You can come back to this command-line interface to view the actual entries you make once you have set up the development server (and thus, the user interface of the application).
