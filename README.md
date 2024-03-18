@@ -23,6 +23,10 @@ python3 ddl.py
 
 This should effectively setup a database on-disk, meaning it will be stored on your local machine either on your SSD or HDD. Within the ddl.py file that you just ran, there is a connection object that creates a new database on-disk called "tracker.db", you should see this be added to your current folder as "tracker.db". 
 
+Also run the python interpreter on the dml.py file:
+
+python3 dml.py
+
 You can check to make sure this was created by entering the sqlite command line interface. Sqlite is the technology that is used to set up a database on-disk so you can use tracker productivity tool on your local machine. Run the following into the terminal:
 
 sqlite3 tracker.db 
